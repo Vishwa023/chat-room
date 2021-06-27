@@ -1,0 +1,13 @@
+// Steps to deploy an app on Heroku
+
+//url to see your projects on heroku dashboard -  https://dashboard.heroku.com/
+
+1. Fisrt download Heroku CLI
+2. login into the Heroku CLI - heroku login -> Using this command you will be redirect to login page of heroku CLI
+3. you need to create heroku app
+   -> heroku create <Name of app>
+   you will get two links
+   1. link-of-app : https://chat-room-vp.herokuapp.com/
+   2. git : https://git.heroku.com/chat-room-vp.git
+4. Now we need to push our code to above git repository,
+    for that run command -> git push heroku master
