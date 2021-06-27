@@ -32,7 +32,7 @@ const botName = 'chat-room bot';
 // socket is attached to the server
 const io = socketIo(server);
 
-const PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 
 // EJs
